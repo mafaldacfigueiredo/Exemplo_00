@@ -11,6 +11,13 @@ path = 'data/'
 Person.read(path)
 prev_option = ""
 
+
+
+
+
+
+
+
 @app.route("/", methods=["post","get"])
 def index():
     global prev_option
